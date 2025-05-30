@@ -1,0 +1,1624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dambelkar's Spoken English Classes in Ahmadnagar - Transform your English speaking skills with expert guidance and proven teaching methods.">
+    <meta name="keywords" content="Spoken English, English Classes, Ahmadnagar, English Coaching, Learn English, English Speaking Course">
+    <title>Dambelkar's Spoken English Classes | Ahmadnagar</title>
+    
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <!-- <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css"> -->
+    <style>
+        /* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Base Styles */
+:root {
+    --primary-color: #ffc107;
+    --secondary-color: #0d6efd;
+    --dark-color: #212529;
+    --light-color: #f8f9fa;
+    --success-color: #198754;
+    --danger-color: #dc3545;
+    --warning-color: #fd7e14;
+    --info-color: #0dcaf0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    position: relative;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Utility Classes */
+.text-warning {
+    color: var(--primary-color) !important;
+}
+
+.bg-warning {
+    background-color: var(--primary-color) !important;
+}
+
+.section-title {
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background: var(--primary-color);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-subtitle {
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.title-underline {
+    width: 80px;
+    height: 3px;
+    background: var(--primary-color);
+    margin: 0 auto 20px;
+}
+
+.lead {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 15px 0;
+    transition: all 0.3s ease;
+}
+
+.navbar.scrolled {
+    padding: 10px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    padding: 8px 15px !important;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: -72px;
+    padding-top: 72px;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-section h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* About Section */
+.icon-box {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 193, 7, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+.feature-item:hover .icon-box {
+    background: var(--primary-color);
+    color: white;
+}
+
+/* Courses Section */
+.course-card {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.price-tag {
+    background: rgba(13, 110, 253, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.price {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.duration {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.workshop-card {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+.workshop-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.workshop-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    background: rgba(255, 193, 7, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+/* Gallery Section */
+.gallery-img {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.gallery-img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Testimonials Section */
+.testimonial-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 5px solid rgba(255, 193, 7, 0.3);
+}
+
+.testimonial-text {
+    position: relative;
+    padding-left: 20px;
+}
+
+.testimonial-text::before {
+    content: '"';
+    position: absolute;
+    left: 0;
+    top: -10px;
+    font-size: 3rem;
+    color: rgba(255, 193, 7, 0.3);
+    font-family: Georgia, serif;
+    line-height: 1;
+}
+
+.stars {
+    font-size: 0.9rem;
+}
+
+.counter-box {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.counter-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.counter {
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+/* Teaching Methodology */
+.method-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.method-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.method-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    background: rgba(255, 193, 7, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.method-card:hover .method-icon {
+    background: var(--primary-color);
+    color: white;
+}
+
+/* FAQ Section */
+.accordion-button:not(.collapsed) {
+    background: rgba(255, 193, 7, 0.1);
+    color: var(--primary-color);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(255, 193, 7, 0.25);
+}
+
+/* Contact Section */
+.contact-item .icon-box {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 193, 7, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background: var(--primary-color);
+    color: var(--dark-color);
+    transform: translateY(-3px);
+}
+
+.map-container {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer a {
+    color: #adb5bd;
+}
+
+footer a:hover {
+    color: var(--primary-color);
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 999;
+}
+
+.back-to-top.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991.98px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-section p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    
+    .hero-section {
+        text-align: center;
+    }
+    
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+    
+    .testimonial-card .row {
+        flex-direction: column;
+    }
+    
+    .testimonial-img {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hero-section h1 {
+        font-size: 1.8rem;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+/* Animate.css - https://animate.style */
+:root {
+  --animate-duration: 1s;
+  --animate-delay: 1s;
+  --animate-repeat: 1;
+}
+.animate__animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-duration: var(--animate-duration);
+  animation-duration: var(--animate-duration);
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* Fading entrances  */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.animate__fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animate__fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animate__fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animate__fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animate__fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+/* Delays */
+.animate__delay-1s {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-delay: var(--animate-delay);
+  animation-delay: var(--animate-delay);
+}
+
+.animate__delay-2s {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+    </style>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="text-warning">Dambelkar's</span> Spoken English
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Success Stories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="dark-overlay">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-md-8 text-white animate__animated animate__fadeIn">
+                        <h1 class="display-3 fw-bold">Unlock Your English Potential</h1>
+                        <p class="lead">Join Dambelkar's Spoken English Classes and transform your communication skills with our proven teaching methodology.</p>
+                        <div class="d-grid gap-3 d-sm-flex">
+                            <a href="#courses" class="btn btn-warning btn-lg px-4 me-sm-3">Explore Courses</a>
+                            <a href="#contact" class="btn btn-outline-light btn-lg px-4">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">About Our Institute</h2>
+                    <div class="title-underline"></div>
+                    <p class="lead">Transforming English learners into confident speakers since 2010</p>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm animate__animated animate__fadeInLeft">
+                        <div class="card-body p-4">
+                            <h3 class="card-title text-warning">Our Founder</h3>
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9eIuja6oEHlS7r7Y1idLAGgdmNLdZYIcY8A&s" alt="Founder" class="rounded-circle me-3" width="80" height="80">
+                                <div>
+                                    <h5 class="mb-0">Prof. Rajesh Dambelkar</h5>
+                                    <small class="text-muted">MA in English, TESOL Certified</small>
+                                </div>
+                            </div>
+                            <p class="card-text">With over 15 years of teaching experience, Prof. Dambelkar has helped thousands of students overcome their fear of speaking English. His unique teaching methodology focuses on practical communication skills rather than rote learning.</p>
+                            <p>His qualifications include:</p>
+                            <ul>
+                                <li>Master's Degree in English Literature</li>
+                                <li>TESOL Certification from University of Cambridge</li>
+                                <li>Specialization in Phonetics and Accent Training</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm animate__animated animate__fadeInRight">
+                        <div class="card-body p-4">
+                            <h3 class="card-title text-warning">Why Choose Us?</h3>
+                            <div class="features-list">
+                                <div class="feature-item d-flex mb-3">
+                                    <div class="icon-box me-3">
+                                        <i class="fas fa-chalkboard-teacher text-warning"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1">Interactive Teaching</h5>
+                                        <p class="mb-0">Engaging sessions with role-plays, group discussions, and real-life scenarios.</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item d-flex mb-3">
+                                    <div class="icon-box me-3">
+                                        <i class="fas fa-users text-warning"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1">Small Batch Sizes</h5>
+                                        <p class="mb-0">Limited students per batch for personalized attention.</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item d-flex mb-3">
+                                    <div class="icon-box me-3">
+                                        <i class="fas fa-certificate text-warning"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1">Proven Results</h5>
+                                        <p class="mb-0">90% of our students show measurable improvement within 3 months.</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item d-flex">
+                                    <div class="icon-box me-3">
+                                        <i class="fas fa-smile text-warning"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1">Confidence Building</h5>
+                                        <p class="mb-0">We focus on removing the fear of speaking English in public.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Our Courses</h2>
+                    <div class="title-underline"></div>
+                    <p class="lead">Choose the right program for your English learning journey</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card course-card h-100 border-0 shadow-sm animate__animated animate__fadeInUp">
+                        <div class="card-header bg-primary text-white text-center py-3">
+                            <h3 class="mb-0">Beginner Level</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="price-tag text-center mb-3">
+                                <span class="price">₹5,999</span>
+                                <span class="duration">/ 3 months</span>
+                            </div>
+                            <ul class="list-group list-group-flush mb-3">
+                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>Basic Grammar Foundation</li>
+                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>Everyday Vocabulary</li>
+                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>Simple Conversations</li>
+                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>Pronunciation Basics</li>
+                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>3 Classes per Week</li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="#contact" class="btn btn-outline-primary">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card course-card h-100 border-0 shadow-sm animate__animated animate__fadeInUp animate__delay-1s">
+                        <div class="card-header bg-warning text-dark text-center py-3">
+                            <h3 class="mb-0">Intermediate Level</h3>
+                            <span class="badge bg-danger">Most Popular</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="price-tag text-center mb-3">
+                                <span class="price">₹8,999</span>
+                                <span class="duration">/ 4 months</span>
+                            </div>
+                            <ul class="list-group list-group-flush mb-3">
+                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>Advanced Grammar</li>
+                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>Fluency Development</li>
+                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>Public Speaking</li>
+                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>Accent Neutralization</li>
+                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>4 Classes per Week</li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="#contact" class="btn btn-warning">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card course-card h-100 border-0 shadow-sm animate__animated animate__fadeInUp animate__delay-2s">
+                        <div class="card-header bg-success text-white text-center py-3">
+                            <h3 class="mb-0">Advanced Level</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="price-tag text-center mb-3">
+                                <span class="price">₹12,999</span>
+                                <span class="duration">/ 6 months</span>
+                            </div>
+                            <ul class="list-group list-group-flush mb-3">
+                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>Business Communication</li>
+                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>Professional Writing</li>
+                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>Interview Preparation</li>
+                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>Debate & Discussion</li>
+                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>5 Classes per Week</li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="#contact" class="btn btn-outline-success">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Workshops Section -->
+            <div class="row mt-5">
+                <div class="col-12 text-center mb-4">
+                    <h3 class="section-subtitle">Special Workshops</h3>
+                    <p class="text-muted">Short-term intensive programs for specific needs</p>
+                </div>
+                
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card workshop-card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="workshop-icon mb-3">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <h5>Interview Preparation</h5>
+                            <p class="text-muted">2-week intensive workshop</p>
+                            <p>Master the art of answering interview questions confidently in English.</p>
+                            <span class="badge bg-info">₹2,499</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card workshop-card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="workshop-icon mb-3">
+                                <i class="fas fa-microphone"></i>
+                            </div>
+                            <h5>Public Speaking</h5>
+                            <p class="text-muted">3-week workshop</p>
+                            <p>Overcome stage fear and deliver powerful speeches in English.</p>
+                            <span class="badge bg-info">₹3,499</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card workshop-card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="workshop-icon mb-3">
+                                <i class="fas fa-phone-volume"></i>
+                            </div>
+                            <h5>Call Center Training</h5>
+                            <p class="text-muted">4-week program</p>
+                            <p>Specialized training for call center jobs with accent neutralization.</p>
+                            <span class="badge bg-info">₹4,999</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card workshop-card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="workshop-icon mb-3">
+                                <i class="fas fa-plane"></i>
+                            </div>
+                            <h5>Travel English</h5>
+                            <p class="text-muted">2-week crash course</p>
+                            <p>Essential English for travelers with situational practice.</p>
+                            <span class="badge bg-info">₹1,999</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Our Gallery</h2>
+                    <div class="title-underline"></div>
+                    <p class="lead">Moments from our classroom and events</p>
+                </div>
+            </div>
+            
+            <div class="row g-3">
+                <div class="col-md-4 col-6">
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCYR9uky7zgshxPZp0D8ZPIj7cg2ADG5HFSQ&s" data-lightbox="gallery" data-title="Interactive Classroom Session">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCYR9uky7zgshxPZp0D8ZPIj7cg2ADG5HFSQ&s" alt="Classroom Session" class="img-fluid gallery-img rounded shadow-sm">
+                    </a>
+                </div>
+                <div class="col-md-4 col-6">
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN-NwLKVJh4HI73cj2WyuKqAKi7ebe836-UvO6gC_LWF3WZUL1S2_dy6bJbXEboBUKsj0&usqp=CAU" data-lightbox="gallery" data-title="Group Discussion Activity">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN-NwLKVJh4HI73cj2WyuKqAKi7ebe836-UvO6gC_LWF3WZUL1S2_dy6bJbXEboBUKsj0&usqp=CAU" alt="Group Discussion" class="img-fluid gallery-img rounded shadow-sm">
+                    </a>
+                </div>
+                <div class="col-md-4 col-6">
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRooCVHbCyIGnVzmJx5yKNcYDMI2lVhPfF1zsc8SWjWon7eWAg3LxuD6O2HMP0_LgmsNds&usqp=CAU" data-lightbox="gallery" data-title="Student Presentation">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRooCVHbCyIGnVzmJx5yKNcYDMI2lVhPfF1zsc8SWjWon7eWAg3LxuD6O2HMP0_LgmsNds&usqp=CAU" alt="Student Presentation" class="img-fluid gallery-img rounded shadow-sm">
+                    </a>
+                </div>
+                <div class="col-md-4 col-6">
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRboEuppoHRB1pflwlKO-_8AgAb7PmrxIzpg&s" data-lightbox="gallery" data-title="One-on-One Guidance">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRboEuppoHRB1pflwlKO-_8AgAb7PmrxIzpg&s" alt="One-on-One Guidance" class="img-fluid gallery-img rounded shadow-sm">
+                    </a>
+                </div>
+                <div class="col-md-4 col-6">
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRLBXuLH7QgBS-xeJ4fabjbVPczUGZMmsllA&s" data-lightbox="gallery" data-title="Role Play Activity">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRLBXuLH7QgBS-xeJ4fabjbVPczUGZMmsllA&s" alt="Role Play" class="img-fluid gallery-img rounded shadow-sm">
+                    </a>
+                </div>
+                <div class="col-md-4 col-6">
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-R-YUZAyv27M5l4LWEXq_BBn1tvoZLNNkwQ&s" data-lightbox="gallery" data-title="Certificate Distribution">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-R-YUZAyv27M5l4LWEXq_BBn1tvoZLNNkwQ&s" alt="Certificate Distribution" class="img-fluid gallery-img rounded shadow-sm">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <a href="#contact" class="btn btn-warning btn-lg px-4">Join Our Next Batch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Success Stories</h2>
+                    <div class="title-underline"></div>
+                    <p class="lead">What our students say about us</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonial-card">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4 text-center">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcMEfrf9-WWOZKPA-6u-icj7yTtpTMyKls4g&s" alt="Student" class="rounded-circle testimonial-img mb-3">
+                                            <h5>Priya Sharma</h5>
+                                            <p class="text-muted">Advanced Course Alumni</p>
+                                            <div class="stars">
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="testimonial-text">
+                                                <p>"Before joining Dambelkar's classes, I struggled to form even basic sentences in English. Within 6 months, I not only gained fluency but also the confidence to participate in debates. The practical approach and personalized feedback helped me immensely. I recently got selected for an international customer support role thanks to the interview preparation workshop!"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-card">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4 text-center">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpDvifth4WnxoOfYsrnvjwCorkx4MZC27cCQ&s" alt="Student" class="rounded-circle testimonial-img mb-3">
+                                            <h5>Rahul Patil</h5>
+                                            <p class="text-muted">Intermediate Course Alumni</p>
+                                            <div class="stars">
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="testimonial-text">
+                                                <p>"The teaching methodology here is completely different from traditional schools. We actually speak English in class instead of just learning grammar rules. The small batch size ensures everyone gets attention. I went from being afraid to speak to confidently giving presentations at my engineering college. The public speaking workshop was a game-changer for me."</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-card">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4 text-center">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVjakdlwjqHkqRZ7MX0n6gGR5ZF5T2IHv1-A&s" alt="Student" class="rounded-circle testimonial-img mb-3">
+                                            <h5>Anjali Deshmukh</h5>
+                                            <p class="text-muted">Beginner Course Alumni</p>
+                                            <div class="stars">
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star-half-alt text-warning"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="testimonial-text">
+                                                <p>"As a housewife, I never thought I could learn English at this age. Prof. Dambelkar's patience and encouraging environment made all the difference. The practical exercises based on daily life situations helped me start using English with my children and even with foreign tourists in our family shop. I'm now enrolled in the intermediate course!"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Success Metrics -->
+            <div class="row mt-5">
+                <div class="col-12 text-center mb-4">
+                    <h3 class="section-subtitle">Our Impact</h3>
+                </div>
+                
+                <div class="col-md-3 col-6 text-center mb-4">
+                    <div class="counter-box p-3">
+                        <h2 class="counter" data-target="1500">0</h2>
+                        <p class="mb-0">Students Trained</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-6 text-center mb-4">
+                    <div class="counter-box p-3">
+                        <h2 class="counter" data-target="95">0</h2>
+                        <p class="mb-0">Success Rate</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-6 text-center mb-4">
+                    <div class="counter-box p-3">
+                        <h2 class="counter" data-target="12">0</h2>
+                        <p class="mb-0">Years Experience</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-6 text-center mb-4">
+                    <div class="counter-box p-3">
+                        <h2 class="counter" data-target="50">0</h2>
+                        <p class="mb-0">Batches Completed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teaching Methodology Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Our Teaching Methodology</h2>
+                    <div class="title-underline"></div>
+                    <p class="lead">How we make learning English effective and enjoyable</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="method-card text-center p-4 h-100">
+                        <div class="method-icon mb-3">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h4>Interactive Sessions</h4>
+                        <p>80% speaking practice with real-life scenarios, role-plays, and group discussions.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="method-card text-center p-4 h-100">
+                        <div class="method-icon mb-3">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h4>Personalized Feedback</h4>
+                        <p>Individual attention with customized suggestions for each student's improvement.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="method-card text-center p-4 h-100">
+                        <div class="method-icon mb-3">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <h4>Audio-Visual Aids</h4>
+                        <p>Movies clips, podcasts, and news segments to learn natural English usage.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="method-card text-center p-4 h-100">
+                        <div class="method-icon mb-3">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h4>Progress Tracking</h4>
+                        <p>Regular assessments and progress reports to measure improvement.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <div class="title-underline"></div>
+                    <p class="lead">Find answers to common questions about our courses</p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item mb-3 border-0 shadow-sm">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                    What is the duration of each course?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>Our courses have different durations:</p>
+                                    <ul>
+                                        <li>Beginner Level: 3 months (36 sessions)</li>
+                                        <li>Intermediate Level: 4 months (48 sessions)</li>
+                                        <li>Advanced Level: 6 months (72 sessions)</li>
+                                        <li>Workshops: 2-4 weeks depending on the program</li>
+                                    </ul>
+                                    <p>Each session is 90 minutes long.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item mb-3 border-0 shadow-sm">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                    What are the batch timings?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>We offer multiple batches throughout the day to accommodate different schedules:</p>
+                                    <ul>
+                                        <li>Morning: 7:30 AM - 9:00 AM</li>
+                                        <li>Afternoon: 3:00 PM - 4:30 PM</li>
+                                        <li>Evening: 6:00 PM - 7:30 PM</li>
+                                        <li>Weekend: Special batches on Saturday & Sunday</li>
+                                    </ul>
+                                    <p>New batches start every month. You can choose a batch that suits your schedule after an initial assessment.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item mb-3 border-0 shadow-sm">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                    Is there any age limit to join the courses?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>We welcome students of all ages! Currently, our youngest student is 12 years old and our oldest is 65. We have different teaching approaches for different age groups:</p>
+                                    <ul>
+                                        <li>Teenagers (12-18): More activity-based learning</li>
+                                        <li>Adults (19-50): Career-focused communication</li>
+                                        <li>Seniors (50+): Practical daily usage focus</li>
+                                    </ul>
+                                    <p>The only requirement is the willingness to learn and practice.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item mb-3 border-0 shadow-sm">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                                    What payment options are available?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>We offer flexible payment options:</p>
+                                    <ul>
+                                        <li>Full payment (5% discount)</li>
+                                        <li>Two installments</li>
+                                        <li>Monthly installments (for longer courses)</li>
+                                    </ul>
+                                    <p>We accept:</p>
+                                    <ul>
+                                        <li>Cash</li>
+                                        <li>UPI (PhonePe, Google Pay, PayTM)</li>
+                                        <li>Bank Transfer</li>
+                                        <li>Credit/Debit Cards (extra 2% processing fee)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item mb-3 border-0 shadow-sm">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                                    Do you provide certificates after course completion?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>Yes, we provide a certificate of completion for all our regular courses (Beginner, Intermediate, Advanced) after:</p>
+                                    <ul>
+                                        <li>Attending minimum 80% of classes</li>
+                                        <li>Clearing the final assessment</li>
+                                    </ul>
+                                    <p>Our certificates are recognized by local employers and educational institutions. For workshop participants, we provide participation certificates.</p>
+                                    <p>Additionally, we offer recommendation letters for exceptional students applying for jobs or higher education.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Contact Us</h2>
+                    <div class="title-underline"></div>
+                    <p class="lead">Get in touch to start your English learning journey</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <h3 class="mb-4 text-warning">Visit Our Institute</h3>
+                        <div class="contact-item d-flex mb-4">
+                            <div class="icon-box me-3">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h5>Address</h5>
+                                <p>Amey Apt, Balikashram Rd, near Ganpati Temple,<br> Sudke Mala, Ahmadnagar, Maharashtra 414001</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item d-flex mb-4">
+                            <div class="icon-box me-3">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h5>Phone</h5>
+                                <p><a href="tel:+919876543210" class="text-white">+91 98765 43210</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item d-flex mb-4">
+                            <div class="icon-box me-3">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div>
+                                <h5>WhatsApp</h5>
+                                <p><a href="https://wa.me/919876543210" class="text-white" target="_blank">+91 98765 43210</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item d-flex mb-4">
+                            <div class="icon-box me-3">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h5>Email</h5>
+                                <p><a href="mailto:info@dambelkarspokenenglish.com" class="text-white">info@dambelkarspokenenglish.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item d-flex">
+                            <div class="icon-box me-3">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h5>Working Hours</h5>
+                                <p>Monday to Saturday: 7:00 AM - 8:00 PM<br>
+                                Sunday: 10:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links mt-4">
+                            <h5 class="mb-3">Follow Us</h5>
+                            <a href="#" class="social-icon me-2"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon me-2"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon me-2"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="contact-form bg-light text-dark p-4 rounded">
+                        <h3 class="mb-4 text-center">Send Us a Message</h3>
+                        <form id="enquiryForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="tel" class="form-control" id="phone" placeholder="Phone Number" required>
+                                        <label for="phone">Phone Number</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="course" required>
+                                            <option value="" selected disabled>Select Course</option>
+                                            <option value="beginner">Beginner Level</option>
+                                            <option value="intermediate">Intermediate Level</option>
+                                            <option value="advanced">Advanced Level</option>
+                                            <option value="workshop">Workshop</option>
+                                            <option value="other">Other Query</option>
+                                        </select>
+                                        <label for="course">Course Interested In</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" id="message" style="height: 120px" placeholder="Your Message"></textarea>
+                                        <label for="message">Your Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-warning btn-lg px-4">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="map-container rounded shadow-lg">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.2345678912345!2d74.12345678901234!3d19.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDA3JzI0LjQiTiA3NMKwMDcnMjQuNCJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-black text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="text-warning">Dambelkar's Spoken English</h5>
+                    <p>Transforming English learners into confident speakers through innovative teaching methods since 2010.</p>
+                    <div class="d-flex mt-3">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-md-2 mb-4 mb-md-0">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#home" class="text-white">Home</a></li>
+                        <li class="mb-2"><a href="#about" class="text-white">About Us</a></li>
+                        <li class="mb-2"><a href="#courses" class="text-white">Courses</a></li>
+                        <li class="mb-2"><a href="#gallery" class="text-white">Gallery</a></li>
+                        <li><a href="#contact" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h5>Courses</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#courses" class="text-white">Beginner Level</a></li>
+                        <li class="mb-2"><a href="#courses" class="text-white">Intermediate Level</a></li>
+                        <li class="mb-2"><a href="#courses" class="text-white">Advanced Level</a></li>
+                        <li class="mb-2"><a href="#courses" class="text-white">Workshops</a></li>
+                        <li><a href="#courses" class="text-white">Special Programs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-3">
+                    <h5>Contact Info</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2 text-warning"></i> Ahmadnagar, Maharashtra</li>
+                        <li class="mb-2"><i class="fas fa-phone-alt me-2 text-warning"></i> +91 98765 43210</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2 text-warning"></i> info@dambelkarspokenenglish.com</li>
+                        <li><i class="fas fa-clock me-2 text-warning"></i> Mon-Sat: 7AM-8PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <hr class="my-4 bg-secondary">
+            
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2023 Dambelkar's Spoken English Classes. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Designed with <i class="fas fa-heart text-danger"></i> for English learners</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top btn btn-warning btn-lg rounded-circle shadow">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap 5.3 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    // Navbar scroll effect
+    const navbar = document.querySelector('.navbar');
+    
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+    
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop - 70,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+    
+    // Back to top button
+    const backToTopButton = document.querySelector('.back-to-top');
+    
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 300) {
+            backToTopButton.classList.add('active');
+        } else {
+            backToTopButton.classList.remove('active');
+        }
+    });
+    
+    backToTopButton.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+    
+    // Counter animation
+    const counters = document.querySelectorAll('.counter');
+    const speed = 200;
+    
+    function animateCounters() {
+        counters.forEach(counter => {
+            const target = +counter.getAttribute('data-target');
+            const count = +counter.innerText;
+            const increment = target / speed;
+            
+            if (count < target) {
+                counter.innerText = Math.ceil(count + increment);
+                setTimeout(animateCounters, 1);
+            } else {
+                counter.innerText = target;
+            }
+        });
+    }
+    
+    // Initialize counters when they come into view
+    const counterSection = document.querySelector('#testimonials');
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                animateCounters();
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.5 });
+    
+    observer.observe(counterSection);
+    
+    // Form submission
+    const enquiryForm = document.getElementById('enquiryForm');
+    
+    if (enquiryForm) {
+        enquiryForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const course = document.getElementById('course').value;
+            const message = document.getElementById('message').value;
+            
+            // Here you would typically send the data to a server
+            // For this example, we'll just show an alert
+            alert(`Thank you, ${name}! Your enquiry for ${course} course has been received. We'll contact you shortly at ${email} or ${phone}.`);
+            
+            // Reset the form
+            enquiryForm.reset();
+        });
+    }
+    
+    // Initialize tooltips
+    const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+    
+    // Initialize popovers
+    const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+    popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl);
+    });
+});
+    </script>
+</body>
+</html>
